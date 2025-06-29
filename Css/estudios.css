@@ -1,0 +1,29 @@
+.estudios {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: azure;
+  padding: 1rem;
+}
+
+.container-estudios {
+  width: 70%;
+  padding: 1rem;
+  margin-top: 1rem;
+  line-height: 2.5rem;
+  font-size: large;
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+  .container-estudios {
+    width: 100%;
+    margin: 0rem;
+  }
+  .estudios {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: small;
+  }
+}

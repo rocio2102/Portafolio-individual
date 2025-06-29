@@ -1,0 +1,27 @@
+.sobremi {
+  display: flex;
+  justify-content: center;
+}
+
+.container-sobremi {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+  font-size: medium;
+  color: var(--text-color);
+  align-items: center;
+  
+
+@media (max-width: 767px) {
+  .container-sobremi {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+    font-size: small;
+    flex-direction: column;
+  }
+}
